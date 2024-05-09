@@ -7,8 +7,8 @@ import plotly_express as px
 df = pd.read_csv("names_year.csv")
 
 #%%
+df["\"]
 
-df
 # %%
 
 fig = px.line(
